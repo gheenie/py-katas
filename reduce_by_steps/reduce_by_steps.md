@@ -1,6 +1,6 @@
 # reduce_by_steps
 
-For this task you should try and create your own version of a `reduce` function, (have a look at the JavaScript [array method]('https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce') if you're not sure what this means).
+For this task you should try and create your own version of a `reduce` function, (have a look at the JavaScript [array method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) if you're not sure what this means).
 
 The function `reduce_by_steps` should accept a **binary function** \*, a **list** and an **initial value**.
 
