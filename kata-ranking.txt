@@ -1,0 +1,29 @@
+Easy:
+
+first_python_kata
+lengthen_date => easy enough if they read docs on DateTime module
+get_century
+caesar_cipher
+herd_the_babies
+sum_ascii
+
+
+Inter:
+
+alphabet_position
+count_bits
+digital_root
+fill_square
+detect_pangram
+morse_code
+multiplication_table
+reduce_by_steps
+
+Hard:
+alternating_split
+years_of_growth
+
+
+Just in case:
+
+validate_suduko
