@@ -1,15 +1,19 @@
 Easier:
+
 first_python_kata
 get_distict_letters
-get_frquencies
+get_frequencies
+create_counter
 lengthen_date => easy enough if they read docs on DateTime module
 get_century
-caesar_cipher
+years_of_growth
 herd_the_babies
 sum_ascii
+caesar_cipher
 
 
 Inter:
+
 alphabet_position
 count_bits
 digital_root
@@ -19,10 +23,13 @@ morse_code
 multiplication_table
 reduce_by_steps
 
+
 Harder:
+
 alternating_split
-years_of_growth
+
 
 
 Just in case❗:
+
 validate_suduko
