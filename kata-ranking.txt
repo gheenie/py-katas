@@ -23,11 +23,17 @@ detect_pangram
 morse_code
 multiplication_table
 reduce_by_steps
+find_partner
+find_most_repeated
 
 
 Harder:
 
 alternating_split
+crack_code
+binary_search
+calculate_binary_score
+justify_line
 
 
 
