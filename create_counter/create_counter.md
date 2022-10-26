@@ -1,6 +1,6 @@
-# make_counter
+# create_counter
 
-The function `make_counter` should accept a number as it's only argument.
+The function `create_counter` should accept a number as it's only argument.
 
 It should return a dictionary containing two functions the can be invoked to change and return the counters value.
 
