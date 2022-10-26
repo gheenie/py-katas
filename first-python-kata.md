@@ -6,7 +6,8 @@ For practice, let's set up our repo properly. So, create a new directory structu
 
 Set up a virtual environment and activate it. You should have something like this.
 
-Install `pytest`: 
+Install `pytest`:
+
 ```bash
 pip install pytest
 ```
@@ -19,7 +20,7 @@ The challenge is to implement a function which takes a sentence and converts it 
 
 The function takes two arguments; the sentence, and a boolean, true if UpperCamelCase is to be returned and false if lowerCamelCase is to be returned
 
-##### examples
+## Examples
 
 You can use these examples to start building up your test suite
 
@@ -45,12 +46,12 @@ camel_to_english("thisBiggerStrangeSentence")
 # should return "This bigger strange sentence."
 ```
 
-Note that there are already some changes from the JavaScript example. 
+Note that there are already some changes from the JavaScript example.
 
-* Following PEP8, our function names are in `snake_case` rather than `CamelCase`
-* There is no semicolon following the function invocation.
-* The boolean keywords begin with capital letters (ie `True` and `False`).
-* The comments are indicated by a hash `#` rather than the double slash `//` of JavaScript.
+- Following PEP8, our function names are in `snake_case` rather than `CamelCase`
+- There is no semicolon following the function invocation.
+- The boolean keywords begin with capital letters (ie `True` and `False`).
+- The comments are indicated by a hash `#` rather than the double slash `//` of JavaScript.
 
 So, set up a directory for the code in `src`, and a test directory in `test`, and get coding! The purpose of this is to get to grips with Python syntax, so don't worry too much about the logic of how you do this - if you have a working JavaScript version, by all means just try to translate it.
 
