@@ -11,6 +11,7 @@ herd_the_babies
 sum_ascii
 extract_domain_name
 caesar_cipher
+roman_numeral_encoder
 
 
 Inter:
@@ -25,6 +26,7 @@ multiplication_table
 reduce_by_steps
 find_partner
 find_most_repeated
+vowel_shift
 
 
 Harder:
@@ -34,6 +36,7 @@ crack_code
 binary_search
 calculate_binary_score
 justify_line
+find_the_needle
 
 
 
