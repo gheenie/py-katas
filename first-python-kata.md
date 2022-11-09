@@ -2,11 +2,13 @@
 
 Let's do our first Python kata. This one comes straight off the JavaScript course, so you should have done this already. The logic you employ will be the same, we just need to change to Python syntax.
 
-For practice, let's set up our repo properly. So, create a new directory structure (with git initialised) like this:
+For practice, let's set up our repo properly. Set up a virtual environment and activate it. Your terminal should look something like this.
 
-Set up a virtual environment and activate it. You should have something like this.
+```bash
+(venv)=> de-py-katas git:(main)
+```
 
-Install `pytest`:
+When your virtual environment is running, install `pytest`:
 
 ```bash
 pip install pytest
@@ -18,7 +20,19 @@ Now we're ready to go.
 
 The challenge is to implement a function which takes a sentence and converts it to upper or lower camel case
 
-The function takes two arguments; the sentence, and a boolean, true if UpperCamelCase is to be returned and false if lowerCamelCase is to be returned
+The function takes two arguments; the sentence, and a boolean, true if UpperCamelCase is to be returned and false if lowerCamelCase is to be returned.
+
+To help you on your way we have created the test folder, and your very first Python test file complete with first test!
+
+💡 **The import structure at the top of this file will help you build new test files for each kata. Each new test file must start with test\_**
+
+## Running tests
+
+To run your tests for each kata, in your terminal you will run the following command:
+
+```bash
+PYTHONPATH=$(pwd)/<kata_folder_name> pytest
+```
 
 ## Examples
 
@@ -48,10 +62,10 @@ camel_to_english("thisBiggerStrangeSentence")
 
 Note that there are already some changes from the JavaScript example.
 
-- Following PEP8, our function names are in `snake_case` rather than `CamelCase`
-- There is no semicolon following the function invocation.
-- The boolean keywords begin with capital letters (ie `True` and `False`).
-- The comments are indicated by a hash `#` rather than the double slash `//` of JavaScript.
+-   Following PEP8, our function names are in `snake_case` rather than `CamelCase`
+-   There is no semicolon following the function invocation.
+-   The boolean keywords begin with capital letters (ie `True` and `False`).
+-   The comments are indicated by a hash `#` rather than the double slash `//` of JavaScript.
 
 So, set up a directory for the code in `src`, and a test directory in `test`, and get coding! The purpose of this is to get to grips with Python syntax, so don't worry too much about the logic of how you do this - if you have a working JavaScript version, by all means just try to translate it.
 
@@ -61,4 +75,4 @@ Some stuff you might find useful:
 1. The [string operations](https://speedsheet.io/s/python?q=strings-only#T7xJ) section might be useful too. Purists may want to look at the actual [Python docs](https://docs.python.org/3/library/string.html).
 1. Who knows, maybe something on [list operations](https://speedsheet.io/s/python?q=list-only#hCt6) might be [useful](https://docs.python.org/3/tutorial/datastructures.html)?
 
-In the standard, tried and trusted Northcoders fashion, we'll just chuck you in a the deep end with no buoyancy aid, although we might throw you a lifeline if you really need it! Go for it!
+In the standard, tried and trusted Northcoders fashion, we'll just chuck you in at the deep end with no buoyancy aid, although we might throw you a lifeline if you really need it! Go for it!
