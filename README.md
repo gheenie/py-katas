@@ -10,7 +10,7 @@ $ git clone "your fork's URL"
 $ cd de-py-katas
 ```
 
-💡 Remember you will also need to set up your **virtual environment**.
+💡 Remember you will also need to set up your **virtual environment** and use .gitignore to untrack the folder so that you don't commit the files.
 
 Work on the katas and commit changes as needed. When you are happy with your solution, push all your changes to your forked repo. You should push to your fork frequently but as a bare minimum please make sure it's up to date with last week's kata solutions before Monday morning each week:
 
@@ -24,7 +24,7 @@ $ git push origin main
 
 This repo is a series of katas to practice your problem solving skills, there is a recommended running order below. There are more katas here than we expect you to complete but have provided extras for you to use as practice once you finish the course to help keep your skills sharp.
 
-**Please start by reading the** `first_python_kata.md` **file and completing** `sentence_to_camel_case`. 
+**Please start by reading the** `first_python_kata.md` **file and completing** `sentence_to_camel_case`.
 
 ---
 
