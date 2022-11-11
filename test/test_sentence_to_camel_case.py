@@ -1,4 +1,4 @@
-from sentence_to_camel_case import sentence_to_camel_case
+from sentence_to_camel_case.sentence_to_camel_case import sentence_to_camel_case
 
 
 def test_returns_a_single_word_in_lower_if_true():
