@@ -31,7 +31,13 @@ To help you on your way we have created the test folder, and your very first Pyt
 To run your tests for each kata, in your terminal you will run the following command:
 
 ```bash
-PYTHONPATH=$(pwd)/<kata_folder_name> pytest
+PYTHONPATH=$(pwd)/ pytest test/<test_file_name.py>
+```
+
+To run **all** your test files in your test folder run the following command:
+
+```bash
+PYTHONPATH=$(pwd)/ pytest
 ```
 
 ## Examples
