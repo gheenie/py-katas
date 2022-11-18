@@ -1,2 +1,2 @@
-def make_counter():
+def create_counter():
 	pass
