@@ -1,6 +1,7 @@
 from src.sentence_to_camel_case.sentence_to_camel_case import sentence_to_camel_case
+import pytest
 
-
+@pytest.mark.skip
 def test_returns_a_single_word_in_upper_if_true():
     expected = 'This'
     result = sentence_to_camel_case('this', True)
