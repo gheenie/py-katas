@@ -18,7 +18,7 @@ Now we're ready to go.
 
 ## Sentence to upper or lower CamelCase
 
-The challenge is to implement a function which takes a sentence and converts it to upper or lower camel case
+The first challenge is to implement a function which takes a sentence and converts it to upper or lower camel case.
 
 The function takes two arguments; the sentence, and a boolean, true if UpperCamelCase is to be returned and false if lowerCamelCase is to be returned.
 
@@ -73,7 +73,7 @@ Note that there are already some changes from the JavaScript example.
 -   The boolean keywords begin with capital letters (ie `True` and `False`).
 -   The comments are indicated by a hash `#` rather than the double slash `//` of JavaScript.
 
-So, set up a directory for the code in `src`, and a test directory in `test`, and get coding! The purpose of this is to get to grips with Python syntax, so don't worry too much about the logic of how you do this - if you have a working JavaScript version, by all means just try to translate it.
+So, set up a code file in `src/sentence_to_camel_case`, and a test file in `test`, and get coding! The purpose of this is to get to grips with Python syntax, so don't worry too much about the logic of how you do this - if you have a working JavaScript version, by all means just try to translate it.
 
 Some stuff you might find useful:
 
