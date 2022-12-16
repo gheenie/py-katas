@@ -24,7 +24,7 @@ $ git push origin main
 
 This repo is a series of katas to practice your problem solving skills, there is a recommended running order below. There are more katas here than we expect you to complete but have provided extras for you to use as practice once you finish the course to help keep your skills sharp.
 
-**Please start by reading the** `first_python_kata.md` **file and completing** `sentence_to_camel_case`.
+**Please start by reading the** `first_python_kata` **and completing** `sentence_to_camel_case`.
 
 ---
 
