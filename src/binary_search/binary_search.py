@@ -1,2 +1,2 @@
 def binary_search():
-	pass
+    pass

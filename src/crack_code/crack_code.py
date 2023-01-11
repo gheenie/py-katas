@@ -1,2 +1,2 @@
 def crack_code():
-	pass
+    pass

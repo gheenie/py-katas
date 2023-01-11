@@ -12,6 +12,20 @@ $ cd de-py-katas
 
 💡 Remember you will also need to set up your **virtual environment** and use .gitignore to untrack the folder so that you don't commit the files.
 
+There will be `flake8` checks to make sure for PEP8 compliance on the later katas, this will be checked via a Makefile. Please make sure that you have `make` installed.
+
+In the terminal, navigate to the root directory of the project, and run:
+
+```
+make flake
+```
+
+After you have install flake8, you can use the command below to run your tests and check for PEP8 compliance:
+
+```
+make run-checks
+```
+
 Work on the katas and commit changes as needed. When you are happy with your solution, push all your changes to your forked repo. You should push to your fork frequently but as a bare minimum please make sure it's up to date with last week's kata solutions before Monday morning each week:
 
 ```sh

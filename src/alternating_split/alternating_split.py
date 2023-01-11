@@ -1,8 +1,8 @@
 def encrypt(str, n):
-  pass
+    pass
 
 
 # EXTENSION
 
 def decrypt(str, n):
-  pass
+    pass

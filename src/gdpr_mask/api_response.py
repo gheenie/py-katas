@@ -3,7 +3,8 @@ from datetime import datetime
 from gdpr_mask import mask
 
 
-@mask('customer_name', 'address_line_1', 'address_line_2', 'post_code', 'telephone')
+@mask('customer_name', 'address_line_1',
+      'address_line_2', 'post_code', 'telephone')
 def get_product_history(product_code):
     return {
         'product_code': product_code,
@@ -16,7 +17,7 @@ def get_product_history(product_code):
                 'address_line_2': 'Didsbury',
                 'city': 'Manchester',
                 'post_code': 'M45 3PQ',
-                'telephone': '0161 323 3434' 
+                'telephone': '0161 323 3434'
             }
     }
 
@@ -40,16 +41,16 @@ def get_customer_profile(customer_number):
                     'address_2': 'Cleethorpes',
                     'address_3': 'Lincolnshire',
                     'postal_code': 'DN35 1UV',
-            }
-            ,
+            },
             'telephone_numbers': {
                 'mobile': '07777 777777'
             },
             'email': {
                 'primary_email': 'big_roj@hammerste.in'
             }
-        }   
+        }
     }
+
 
 if __name__ == '__main__':
     print(get_product_history('xyz'))
