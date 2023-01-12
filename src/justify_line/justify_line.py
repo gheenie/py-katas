@@ -1,2 +1,2 @@
 def justify_line():
-	pass
+    pass

@@ -1,2 +1,2 @@
 def multiplication_table():
-	pass
+    pass

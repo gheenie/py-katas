@@ -1,2 +1,2 @@
 def validate_suduko():
-	pass
+    pass
