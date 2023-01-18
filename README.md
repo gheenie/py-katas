@@ -10,9 +10,25 @@ $ git clone "your fork's URL"
 $ cd de-py-katas
 ```
 
-💡 Remember you will also need to set up your **virtual environment** and use .gitignore to untrack the folder so that you don't commit the files.
+We are going to use the `make` command to perform some of the standard tasks for this repo. We'll cover `make` in more detail later in the course.
 
-There will be `flake8` checks to make sure for PEP8 compliance on the later katas, this will be checked via a Makefile. Please make sure that you have `make` installed.
+The first task is to set up your **virtual environment**.
+
+Run this command in a terminal:
+```bash
+make create-environment
+```
+
+You should see the `venv` directory appear within the project folder.
+
+Using `make` as described below wil mean you don't have to activate your environment.
+
+After creating your virtual environment, we can install `pytest` by running:
+```bash
+make pytest
+```
+
+The `pytest` library will be used for unit tests. Additionally, there will be `flake8` checks to make sure for PEP8 compliance in the later katas, this will be checked via `make`. 
 
 In the terminal, navigate to the root directory of the project, and run:
 
@@ -20,7 +36,7 @@ In the terminal, navigate to the root directory of the project, and run:
 make flake
 ```
 
-After you have install flake8, you can use the command below to run your tests and check for PEP8 compliance:
+Then, you can use the command below to run your all tests and check for PEP8 compliance:
 
 ```
 make run-checks
