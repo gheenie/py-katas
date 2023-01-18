@@ -2,19 +2,7 @@
 
 Let's do our first Python kata. This one comes straight off the JavaScript course, so you should have done this already. The logic you employ will be the same, we just need to change to Python syntax.
 
-For practice, let's set up our repo properly. Set up a virtual environment and activate it. Your terminal should look something like this.
-
-```bash
-(venv)=> de-py-katas git:(main)
-```
-
-When your virtual environment is running, install `pytest`:
-
-```bash
-pip install pytest
-```
-
-Now we're ready to go.
+For practice, let's set up our repo properly. First of all, ensure that you have installed `flake8`, `pytest` and can use `make` as described in `README.md`. 
 
 ## Sentence to upper or lower CamelCase
 
@@ -28,17 +16,24 @@ To help you on your way we have created the test folder, and your very first Pyt
 
 ## Running tests
 
-To run your tests for each kata, in your terminal you will run the following command:
+To run your tests for each kata, in your terminal you will run the following command from the root directory of the project:
 
 ```bash
-PYTHONPATH=$(pwd)/ pytest test/<test_file_name.py>
+make unit-test <path to test file>
+```
+
+For example, to test `sentence_to_camel_case`, run:
+```bash
+make unit-test test/test_sentence_to_camel_case.py
 ```
 
 To run **all** your test files in your test folder run the following command:
 
 ```bash
-PYTHONPATH=$(pwd)/ pytest
+make run-checks
 ```
+
+For the later katas (from `multiplication_table` onwards), this command will also run a PEP8 check.
 
 ## Examples
 
