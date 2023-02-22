@@ -1,7 +1,6 @@
 from src.get_century.get_century import (
     get_century)
 
-
 def test_century_ending_1_to_3():
     assert get_century(38) == '1st'
     assert get_century(123) == '2nd'
