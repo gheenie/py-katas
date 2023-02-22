@@ -17,5 +17,8 @@ def test_distinct_but_multiple_letters_from_first_word():
 def test_distinct_letters_from_both_words__multiple_from_first():
     assert get_distinct_letters('opeafop', 'qfaew') == 'opqw'
 
+def test_empty_string_from_one_word():
+    assert get_distinct_letters('hello', '') == 'ehlo'
+
 def test_specific_examples():
     assert get_distinct_letters('hello', 'worldoo') == 'dehrw'
