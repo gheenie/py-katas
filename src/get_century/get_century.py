@@ -1,10 +1,5 @@
 import math
-
-def create_suffix(num):
-    if 11 <= num <= 13 or not 1 <= num % 10 <= 3:
-        return 'th'
-    else:
-        return {1: 'st', 2: 'nd', 3: 'rd'}[num % 10]
+from src.lengthen_date.lengthen_date import create_suffix
 
 def get_century(year):
     isTurnOfCentury = str(year).endswith('00')
