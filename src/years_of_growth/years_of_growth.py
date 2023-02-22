@@ -5,7 +5,7 @@ def years_of_growth(
     growth_rate,
     net_migration
 ):
-    if growth_rate == 0:
+    if growth_rate == 0 and net_migration == 0:
         return 'infinite'
 
     years_passed = 0
