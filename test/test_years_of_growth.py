@@ -2,7 +2,7 @@ from src.years_of_growth.years_of_growth import (
     years_of_growth)
 
 
-def test_correct_result():
+def test_non_0_growth_or_migration():
     assert years_of_growth(1000, 2000, 2, 12) == 25
 
 def test_0_growth():
@@ -10,3 +10,5 @@ def test_0_growth():
 
 def test_0_growth_0_migration():
     assert years_of_growth(1000, 2000, 0, 0) == 'infinite'
+
+# test target < initial
