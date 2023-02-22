@@ -24,3 +24,8 @@ def test_multiple_words_ignore_spaces():
     }
 
     assert get_frequencies('hello world') == expected
+
+def test_empty_string():
+    expected = {}
+
+    assert get_frequencies('') == expected
