@@ -9,3 +9,6 @@ def test_multiple_families_some_without_babies():
 
 def test_multiple_families():
     assert herd_the_babies('bbaBccAC') == 'AaBbbCcc'
+
+def test_multiple_parents():
+    assert herd_the_babies('bbaDDDBccddAC') == 'AaBbbCccDDDdd'
