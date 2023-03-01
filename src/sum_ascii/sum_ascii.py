@@ -11,6 +11,4 @@ def sum_ascii(array):
             highest_ascii_sum = ascii_sum
             name_with_highest_ascii_sum = name
 
-        print(ascii_sum)
-
     return name_with_highest_ascii_sum
