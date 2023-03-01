@@ -12,3 +12,6 @@ def test_multiple_families():
 
 def test_multiple_parents():
     assert herd_the_babies('bbaDDDBccddAC') == 'AaBbbCccDDDdd'
+
+def test_empty_string():
+    assert herd_the_babies('') == ''
