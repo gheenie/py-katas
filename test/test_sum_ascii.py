@@ -16,6 +16,7 @@ def test_one_item_which_is_empty_string():
 def test_original_list_not_mutated():
     input = ['jjjj', 'ZZZZ', 'zzza']
 
-    sum_ascii(input)
+    output = sum_ascii(input)
 
     assert input == ['jjjj', 'ZZZZ', 'zzza']
+    assert output is not input
