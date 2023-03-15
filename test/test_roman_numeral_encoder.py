@@ -1,37 +1,21 @@
 from src.roman_numeral_encoder.roman_numeral_encoder import (roman_numeral_encoder)
 
 
-def test_1_to_3():
+def test_1_to_9():
+    assert roman_numeral_encoder(3) == 'I'
+    assert roman_numeral_encoder(4) == 'IV'
+    assert roman_numeral_encoder(5) == 'I'
+    assert roman_numeral_encoder(6) == 'VI'
+    assert roman_numeral_encoder(9) == 'IX'
+
+
+def test_10_to_39():
     pass
 
 
-def test_4_to_8():
+def test_40_to_69():
     pass
 
 
-def test_9_to_13():
-    pass
-
-
-def test_14_to_18():
-    pass
-
-
-def test_19_to_39():
-    pass
-
-
-def test_40_to_49():
-    pass
-
-
-def test_50_to_60():
-    pass
-
-
-def test_61_to_89():
-    pass
-
-
-def test_90_to_100():
+def test_90_to_119():
     pass
