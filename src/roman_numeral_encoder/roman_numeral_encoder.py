@@ -11,14 +11,17 @@ def roman_numeral_encoder(num):
 		9: 'IX',
 	}
 
+	# The roman string which will be gradually built
 	roman_equivalent = ''
 
-	# Evaluate the -1 digit
+	# Encode the -1 digit
 	last_digit = num % 10
 	roman_equivalent += last_digit_translation[last_digit]
 
-	# evaluate the -2 digit
+	# Encode the -2 digit
+	tens = num / 10
+	roman_equivalent = 'X' * int(tens) + roman_equivalent
 
-	# evaluate -3 digit onwards 
+	# encode -3 digit onwards 
 	
 	return roman_equivalent
