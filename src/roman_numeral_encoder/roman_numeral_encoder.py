@@ -1,5 +1,6 @@
 def roman_numeral_encoder(num):
 	last_digit_translation = {
+		0: '',
 		1: 'I',
 		2: 'II',
 		3: 'III',
