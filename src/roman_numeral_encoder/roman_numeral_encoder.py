@@ -12,14 +12,13 @@ def roman_numeral_encoder(num):
 		9: 'IX',
 	}
 
-	# The roman string encoding the number. It will be gradually built
-	roman_equivalent = ''
-
-	# Encode the -1 digit
+	# Encode the last digit
 	last_digit = num % 10
-	roman_equivalent += last_digit_translation[last_digit]
 
-	# Encode the -2 digit
+	# The roman string for the encoded number. It will be gradually built
+	roman_equivalent = last_digit_translation[last_digit]
+
+	# Encode the 2nd last digit
 
 	# Get the 2nd last digit. % 10 is needed for number >= 100
 	tens = int((num / 10) % 10)
@@ -36,7 +35,7 @@ def roman_numeral_encoder(num):
 	elif tens == 9:
 		roman_equivalent = 'XC' + roman_equivalent
 
-	# encode -3 digit onwards
+	# Encode the 3rd last digit back-onwards
 	hundreds = int(num / 100)
 	roman_equivalent = 'C' * hundreds + roman_equivalent
 	
