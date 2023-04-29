@@ -16,7 +16,7 @@ def test_10_to_39():
     assert roman_numeral_encoder(39) == 'XXXIX'
 
 
-def test_40_to_69():
+def test_40_to_89():
     assert roman_numeral_encoder(40) == 'XL'
     assert roman_numeral_encoder(42) == 'XLII'
     assert roman_numeral_encoder(49) == 'XLIX'
@@ -26,6 +26,7 @@ def test_40_to_69():
     assert roman_numeral_encoder(60) == 'LX'
     assert roman_numeral_encoder(67) == 'LXVII'
     assert roman_numeral_encoder(69) == 'LXIX'
+    assert roman_numeral_encoder(89) == 'LXXXIX'
 
 
 def test_90_to_119():
