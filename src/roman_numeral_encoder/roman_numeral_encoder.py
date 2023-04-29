@@ -20,8 +20,19 @@ def roman_numeral_encoder(num):
 	roman_equivalent += last_digit_translation[last_digit]
 
 	# Encode the -2 digit
-	tens = num / 10
-	roman_equivalent = 'X' * int(tens) + roman_equivalent
+
+	tens = int(num / 10)
+
+	if tens <= 3:
+		roman_equivalent = 'X' * tens + roman_equivalent
+	# 'L' is needed for 40 <= number <= 89
+	elif tens == 4:
+		roman_equivalent = 'XL' + roman_equivalent
+	elif tens >= 5 and tens <= 8:
+		tens -= 5
+		roman_equivalent = 'L' + 'X' * tens + roman_equivalent
+
+	# 'C' is needed for number > 90
 
 	# encode -3 digit onwards 
 	
