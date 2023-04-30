@@ -11,8 +11,11 @@ def alphabet_position(string):
   # Build the positions string
   for letter in string:
     if letter.isalpha():
+      # An alphabet's position is the index in the lookup + 1.
+      # Add a whitespace between each position
       positions += str(alphabet_position_lookup.index(letter) + 1) + ' '
     else:
+      # Ignore non-alphabets
       positions += ''
 
   # Remove trailing whitespace
