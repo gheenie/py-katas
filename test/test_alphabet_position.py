@@ -2,6 +2,7 @@ from src.alphabet_position.alphabet_position import alphabet_position
 
 
 def test_only_alphabets():
+    assert alphabet_position('z') == '26'
     assert alphabet_position('abc') == '1 2 3'
 
 
