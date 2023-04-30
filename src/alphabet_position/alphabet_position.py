@@ -1,9 +1,21 @@
 def alphabet_position(string):
+  # An alphabet's position is the index in the lookup + 1
   alphabet_position_lookup = 'abcdefghijklmnopqrstuvwxyz'
 
   # The lookup table only accepts lowercase letters
   string = string.lower()
 
-  positions = str(alphabet_position_lookup.index(string) + 1)
+  # This string will be gradually built with the alphabets' positions
+  positions = ''
+
+  # Build the positions string
+  for letter in string:
+    if letter.isalpha():
+      positions += str(alphabet_position_lookup.index(letter) + 1) + ' '
+    else:
+      positions += ''
+
+  # Remove trailing whitespace
+  positions = positions[0:-1]
 
   return positions
