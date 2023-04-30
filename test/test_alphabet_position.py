@@ -11,4 +11,4 @@ def test_alphabets_and_non_alphabets():
 
 
 def test_only_non_alphabets():
-    assert('1234567890!@#$%^&*(),.') == ''
+    assert alphabet_position('1234567890!@#$%^&*(),.') == ''
